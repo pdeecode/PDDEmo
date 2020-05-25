@@ -2,28 +2,13 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.First__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>yash__c.Details__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Account %28Support%29 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Vat__c-Vat Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>yash__c-yash Layout</layout>
     </layoutAssignments>
-    <pageAccesses>
-        <apexPage>Testvf</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
